@@ -23,7 +23,7 @@ This docker image expects you to bind mount a volume on the host to `/var/www/gi
 - - -
 
 ## How to access repos hosted by this docker container
-If you followed the example above, then this container is available at port 8888 on your docker host. So assuming you have a repo called "foo" in the directory that ypu bind mounted to `var/www/git`, you should be able to run:
+If you followed the example above, then this container is available at port 8888 on your docker host. So assuming you have a repo called "foo" in the directory that you bind mounted to `var/www/git`, you should be able to run:
 
     $ git clone http://<docker_host>:8888/foo
 
